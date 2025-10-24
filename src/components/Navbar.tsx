@@ -29,10 +29,10 @@ export function Navbar() {
 
     const handleDownloadResume = () => {
         
-        const resumeUrl = ""
+        const resumeUrl = "https://docs.google.com/document/d/1aTVTYnN9v-DBiIGcAtzP0Lzj_Cuzk7ph/edit?usp=drive_link&ouid=100101563820177392474&rtpof=true&sd=true"
         const link = document.createElement("a")
         link.href = resumeUrl
-        link.download = "Bhupendra_Resume.pdf"
+        link.download = "Bhupendra_Singh_Resume.pdf"
         document.body.appendChild(link)
         link.click()
         document.body.removeChild(link)
