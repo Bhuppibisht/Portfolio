@@ -29,7 +29,7 @@ export function Navbar() {
 
     const handleDownloadResume = () => {
         
-        const resumeUrl = "https://docs.google.com/document/d/1aTVTYnN9v-DBiIGcAtzP0Lzj_Cuzk7ph/edit?usp=sharing&ouid=100101563820177392474&rtpof=true&sd=true"
+        const resumeUrl = "https://drive.google.com/file/d/1X10HIN1_TWs3iW-Fx9k1JOmIlJkHFJoB/view?usp=drive_link"
         const link = document.createElement("a")
         link.href = resumeUrl
         link.download = "Bhupendra_Singh_Resume.pdf"
