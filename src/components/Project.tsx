@@ -25,6 +25,16 @@ const projects = [
         liveUrl: "https://excalidraw-project-excali-sketch.vercel.app/",
         githubUrl: "https://github.com/Bhuppibisht/excalidraw-project.git",
     },
+
+     {
+        id: 3,
+        title: "Paisatrack app",
+        description: "Developed a responsive expense management interface enabling users to track income, expenses, budgets, and transaction history in real time.",
+        image: "https://ik.imagekit.io/kwcpi2wl3/Screenshot%20(741).png",
+        techStack: ["React.js", "Tailwind CSS", "Javascript" ],
+        liveUrl: "https://paisatrack-frontend.vercel.app",
+        githubUrl: "https://github.com/Bhuppibisht/paisatrack-frontend",
+    },
 ]
 
 export function Projects() {
